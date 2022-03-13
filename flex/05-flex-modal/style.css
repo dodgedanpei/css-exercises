@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 10px;
 }
 
 .icon {
@@ -51,16 +53,31 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 10px;
 }
 
 button.continue {
   background: royalblue;
-  border: 1px solid royalblue;
+  border: 1px solid black;
   color: white;
 }
 
 button.cancel {
   background: white;
-  border: 1px solid #ddd;
+  border: 1px solid black;
   color: royalblue;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.text {
+  line-height: 1em;
 }
